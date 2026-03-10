@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  إعداد Universal Links على iOS
+  يُعرّف المسارات التي يستجيب لها التطبيق
+-->
+<plist version="1.0">
+<array>
+    <dict>
+        <!--
+          Deep Links المخصصة: flutter-template://...
+          Universal Links: https://app.example.com/...
+        -->
+        <key>CFBundleURLTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleURLName</key>
+                <string>flutter-template</string>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>flutter-template</string>
+                </array>
+            </dict>
+        </array>
+
+        <!-- Associated Domains لدعم Universal Links -->
+        <key>com.apple.developer.associated-domains</key>
+        <array>
+            <string>applinks:app.example.com</string>
+        </array>
+    </dict>
+</array>
+</plist>

@@ -1,0 +1,102 @@
+{
+  "@@locale": "ar",
+  "appName": "نموذج Flutter",
+  "@appName": {"description": "اسم التطبيق"},
+
+  "loading": "جاري التحميل...",
+  "@loading": {"description": "رسالة التحميل"},
+
+  "retry": "إعادة المحاولة",
+  "@retry": {"description": "زر إعادة المحاولة"},
+
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "save": "حفظ",
+  "edit": "تعديل",
+  "delete": "حذف",
+  "search": "بحث",
+  "filter": "تصفية",
+  "back": "رجوع",
+  "next": "التالي",
+  "previous": "السابق",
+  "done": "تم",
+  "yes": "نعم",
+  "no": "لا",
+  "close": "إغلاق",
+  "share": "مشاركة",
+
+  "home": "الرئيسية",
+  "categories": "التصنيفات",
+  "profile": "الملف الشخصي",
+  "settings": "الإعدادات",
+  "notifications": "الإشعارات",
+
+  "login": "تسجيل الدخول",
+  "register": "إنشاء حساب",
+  "logout": "تسجيل الخروج",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgotPassword": "نسيت كلمة المرور؟",
+  "loginButton": "دخول",
+
+  "errorTitle": "حدث خطأ",
+  "errorGeneral": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.",
+  "errorNetwork": "تعذّر الاتصال بالخادم. تحقق من اتصالك بالإنترنت.",
+  "errorOffline": "لا يوجد اتصال بالإنترنت.",
+  "errorNotFound": "المحتوى المطلوب غير موجود.",
+  "errorServer": "خطأ في الخادم. يرجى المحاولة لاحقاً.",
+  "errorUnauthorized": "انتهت صلاحية الجلسة. يرجى تسجيل الدخول مرة أخرى.",
+
+  "offlineBannerMessage": "أنت غير متصل بالإنترنت. يتم عرض البيانات المخزنة مؤقتاً.",
+  "offlineQueueMessage": "سيتم إرسال {count} عملية عند عودة الاتصال.",
+  "@offlineQueueMessage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "emptyTitle": "لا يوجد محتوى",
+  "emptyDescription": "لم يتم العثور على أي محتوى. تحقق لاحقاً.",
+  "emptySearchDescription": "لم يتم العثور على نتائج لـ \"{query}\".",
+  "@emptySearchDescription": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+
+  "page404Title": "الصفحة غير موجودة",
+  "page404Description": "الرابط الذي أدخلته غير موجود أو تم تغييره.",
+  "goHome": "العودة للرئيسية",
+
+  "searchHint": "ابحث هنا...",
+  "searchResultsFor": "نتائج البحث عن: {query}",
+  "@searchResultsFor": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+
+  "seeAll": "عرض الكل",
+  "viewDetails": "عرض التفاصيل",
+  "readMore": "اقرأ المزيد",
+  "showLess": "إظهار أقل",
+
+  "language": "اللغة",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "theme": "المظهر",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "themeSystem": "النظام",
+
+  "validationRequired": "{field} مطلوب",
+  "@validationRequired": {
+    "placeholders": {
+      "field": {"type": "String"}
+    }
+  },
+  "validationEmail": "صيغة البريد الإلكتروني غير صحيحة",
+  "validationPasswordLength": "كلمة المرور يجب أن تكون 8 أحرف على الأقل",
+  "validationPasswordUppercase": "كلمة المرور يجب أن تحتوي على حرف كبير",
+  "validationPasswordNumber": "كلمة المرور يجب أن تحتوي على رقم"
+}
