@@ -1,0 +1,96 @@
+{
+  "@@locale": "en",
+  "appName": "Flutter Template",
+  "loading": "Loading...",
+  "retry": "Retry",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "save": "Save",
+  "edit": "Edit",
+  "delete": "Delete",
+  "search": "Search",
+  "filter": "Filter",
+  "back": "Back",
+  "next": "Next",
+  "previous": "Previous",
+  "done": "Done",
+  "yes": "Yes",
+  "no": "No",
+  "close": "Close",
+  "share": "Share",
+
+  "home": "Home",
+  "categories": "Categories",
+  "profile": "Profile",
+  "settings": "Settings",
+  "notifications": "Notifications",
+
+  "login": "Sign In",
+  "register": "Create Account",
+  "logout": "Sign Out",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Forgot Password?",
+  "loginButton": "Sign In",
+
+  "errorTitle": "An Error Occurred",
+  "errorGeneral": "An unexpected error occurred. Please try again.",
+  "errorNetwork": "Unable to connect to the server. Check your internet connection.",
+  "errorOffline": "No internet connection.",
+  "errorNotFound": "The requested content was not found.",
+  "errorServer": "Server error. Please try again later.",
+  "errorUnauthorized": "Session expired. Please sign in again.",
+
+  "offlineBannerMessage": "You are offline. Showing cached data.",
+  "offlineQueueMessage": "{count} operations will be sent when connection is restored.",
+  "@offlineQueueMessage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "emptyTitle": "No Content",
+  "emptyDescription": "No content found. Check back later.",
+  "emptySearchDescription": "No results found for \"{query}\".",
+  "@emptySearchDescription": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+
+  "page404Title": "Page Not Found",
+  "page404Description": "The link you entered does not exist or has been changed.",
+  "goHome": "Go to Home",
+
+  "searchHint": "Search here...",
+  "searchResultsFor": "Search results for: {query}",
+  "@searchResultsFor": {
+    "placeholders": {
+      "query": {"type": "String"}
+    }
+  },
+
+  "seeAll": "See All",
+  "viewDetails": "View Details",
+  "readMore": "Read More",
+  "showLess": "Show Less",
+
+  "language": "Language",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "theme": "Theme",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSystem": "System",
+
+  "validationRequired": "{field} is required",
+  "@validationRequired": {
+    "placeholders": {
+      "field": {"type": "String"}
+    }
+  },
+  "validationEmail": "Invalid email format",
+  "validationPasswordLength": "Password must be at least 8 characters",
+  "validationPasswordUppercase": "Password must contain at least one uppercase letter",
+  "validationPasswordNumber": "Password must contain at least one number"
+}

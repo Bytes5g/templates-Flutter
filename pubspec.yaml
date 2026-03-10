@@ -1,0 +1,87 @@
+name: flutter_template
+description: نموذج Flutter قابل للتوسع مع هيكلية المكونات الذرية، إدارة الحالة المتقدمة، والتدويل الكامل
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # إدارة الحالة
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # التوجيه المتقدم
+  go_router: ^13.2.0
+
+  # حقن التبعيات
+  get_it: ^7.6.7
+
+  # الشبكة
+  dio: ^5.4.1
+  retrofit: ^4.1.0
+  connectivity_plus: ^5.0.2
+
+  # التخزين المحلي
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+
+  # ملفات البيئة
+  flutter_dotenv: ^5.1.0
+
+  # الصور والكاش
+  cached_network_image: ^3.3.1
+
+  # مساعدات واجهة المستخدم
+  shimmer: ^3.0.0
+
+  # التسجيل
+  logger: ^2.1.0
+
+  # التحليل
+  intl: ^0.19.0
+
+  # نماذج البيانات
+  json_annotation: ^4.8.1
+
+  # التنقل العميق
+  uni_links: ^0.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  json_serializable: ^6.7.1
+  retrofit_generator: ^8.1.0
+  hive_generator: ^2.0.1
+  bloc_test: ^9.1.5
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - .env
+    - assets/images/
+    - assets/icons/
+    - assets/translations/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Light.ttf
+          weight: 300
