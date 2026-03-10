@@ -1,0 +1,209 @@
+{
+  "@@locale": "ar",
+  "@@last_modified": "2026-03-09",
+
+  "appName": "تطبيقي",
+  "@appName": {
+    "description": "اسم التطبيق"
+  },
+
+  "loading": "جارٍ التحميل...",
+  "@loading": {
+    "description": "نص التحميل"
+  },
+
+  "retry": "إعادة المحاولة",
+  "@retry": {
+    "description": "زر إعادة المحاولة"
+  },
+
+  "cancel": "إلغاء",
+  "@cancel": {
+    "description": "زر الإلغاء"
+  },
+
+  "confirm": "تأكيد",
+  "@confirm": {
+    "description": "زر التأكيد"
+  },
+
+  "save": "حفظ",
+  "@save": {
+    "description": "زر الحفظ"
+  },
+
+  "delete": "حذف",
+  "@delete": {
+    "description": "زر الحذف"
+  },
+
+  "edit": "تعديل",
+  "@edit": {
+    "description": "زر التعديل"
+  },
+
+  "search": "بحث",
+  "@search": {
+    "description": "نص البحث"
+  },
+
+  "searchHint": "ابحث هنا...",
+  "@searchHint": {
+    "description": "تلميح حقل البحث"
+  },
+
+  "home": "الرئيسية",
+  "@home": {
+    "description": "عنوان صفحة الرئيسية"
+  },
+
+  "settings": "الإعدادات",
+  "@settings": {
+    "description": "عنوان صفحة الإعدادات"
+  },
+
+  "profile": "الملف الشخصي",
+  "@profile": {
+    "description": "عنوان صفحة الملف الشخصي"
+  },
+
+  "categories": "التصنيفات",
+  "@categories": {
+    "description": "عنوان قسم التصنيفات"
+  },
+
+  "items": "العناصر",
+  "@items": {
+    "description": "عنوان قسم العناصر"
+  },
+
+  "noItems": "لا توجد عناصر",
+  "@noItems": {
+    "description": "رسالة عدم وجود عناصر"
+  },
+
+  "noCategories": "لا توجد تصنيفات",
+  "@noCategories": {
+    "description": "رسالة عدم وجود تصنيفات"
+  },
+
+  "errorTitle": "حدث خطأ",
+  "@errorTitle": {
+    "description": "عنوان رسالة الخطأ"
+  },
+
+  "errorGeneral": "حدث خطأ غير متوقع، يرجى المحاولة مرة أخرى.",
+  "@errorGeneral": {
+    "description": "رسالة الخطأ العام"
+  },
+
+  "errorServer": "خطأ في الخادم، يرجى المحاولة لاحقاً.",
+  "@errorServer": {
+    "description": "رسالة خطأ الخادم"
+  },
+
+  "errorNotFound": "المحتوى المطلوب غير موجود.",
+  "@errorNotFound": {
+    "description": "رسالة عدم وجود المحتوى"
+  },
+
+  "errorUnauthorized": "غير مصرح لك بالوصول.",
+  "@errorUnauthorized": {
+    "description": "رسالة عدم التصريح"
+  },
+
+  "noInternetTitle": "لا يوجد اتصال بالإنترنت",
+  "@noInternetTitle": {
+    "description": "عنوان صفحة عدم الاتصال"
+  },
+
+  "noInternetMessage": "يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.",
+  "@noInternetMessage": {
+    "description": "رسالة عدم الاتصال بالإنترنت"
+  },
+
+  "offlineMode": "وضع عدم الاتصال",
+  "@offlineMode": {
+    "description": "نص وضع عدم الاتصال"
+  },
+
+  "cachedData": "يتم عرض بيانات مخزنة مسبقاً",
+  "@cachedData": {
+    "description": "نص البيانات المخزنة"
+  },
+
+  "fieldRequired": "هذا الحقل مطلوب",
+  "@fieldRequired": {
+    "description": "رسالة الحقل المطلوب"
+  },
+
+  "invalidEmail": "البريد الإلكتروني غير صالح",
+  "@invalidEmail": {
+    "description": "رسالة البريد غير الصالح"
+  },
+
+  "invalidPhone": "رقم الهاتف غير صالح",
+  "@invalidPhone": {
+    "description": "رسالة الهاتف غير الصالح"
+  },
+
+  "minLength": "يجب أن يكون على الأقل {count} أحرف",
+  "@minLength": {
+    "description": "رسالة الحد الأدنى للأحرف",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "maxLength": "يجب أن لا يتجاوز {count} أحرف",
+  "@maxLength": {
+    "description": "رسالة الحد الأقصى للأحرف",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "seeAll": "عرض الكل",
+  "@seeAll": {
+    "description": "رابط عرض الكل"
+  },
+
+  "backToHome": "العودة للرئيسية",
+  "@backToHome": {
+    "description": "زر العودة للرئيسية"
+  },
+
+  "pageNotFound": "الصفحة غير موجودة",
+  "@pageNotFound": {
+    "description": "رسالة الصفحة غير الموجودة"
+  },
+
+  "language": "اللغة",
+  "@language": {
+    "description": "إعداد اللغة"
+  },
+
+  "darkMode": "الوضع الليلي",
+  "@darkMode": {
+    "description": "إعداد الوضع الليلي"
+  },
+
+  "version": "الإصدار",
+  "@version": {
+    "description": "إصدار التطبيق"
+  },
+
+  "welcomeMessage": "أهلاً وسهلاً",
+  "@welcomeMessage": {
+    "description": "رسالة الترحيب"
+  },
+
+  "splashTagline": "قالب Flutter الاحترافي",
+  "@splashTagline": {
+    "description": "شعار صفحة البداية"
+  }
+}
